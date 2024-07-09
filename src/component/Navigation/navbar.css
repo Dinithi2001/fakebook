@@ -1,7 +1,7 @@
 .navBarBox{
     height: 50px;
     width: 100%;
-    background-color: #3B5998;
+    background-color: #1877F2;
     display: flex;
     align-items: center;
     position: -webkit-sticky;
@@ -9,68 +9,73 @@
 }
 
 .navBarLeft{
-    flex: 3;
+    flex: 4;
+    display: flex;
 }
 
 .navBarCenter{
     flex: 5;
-}
-
-.navBarRight{
-    flex: 4;
     display: flex;
     align-items: center;
     justify-content:space-between ;
     color: white;
 }
 
-.navBarIcons{
+.navBarRight{
+    flex: 4;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
+    color: white;
+}
+
+.navBarIcons{
+    display: flex;
+    align-items: right;
+    
+    
+    
 }
 
 .navBarIcon{
-    margin-left: 20px;
+    margin-left: 30px;
+    
+    
 }
 
-.navBarLinks{
+.logoIcon{
     margin-left: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: bold;
+    
 }
-.navBarLink{
-    margin-left: 10px;
-}
-
 .logo{
-    font-size: 35px;
-    margin-left: 10px;
-    font-weight: bold;
+    border-radius: 50%;
     color: white;
-    font-family: 'Klavika';
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 8px; 
 
 }
 
 .searchBarBox{
     widows: 100%;
-    height: 30px;
-    background-color: white;
+    height: 40px;
+    background-color:#f2f2f2;
     border-radius: 30px;
     display: flex;
     align-items: center;
+    width: 60%;
+    margin-left: 10px;
+
 }
 
 .searchIcon{
     margin-left: 10px;
+   
 }
 
 .searchInput{
     outline: none;
     border: none;
     width: 80%;
+    background-color:#f2f2f2
 }
 
 .profilePic{
@@ -78,7 +83,7 @@
     height: 32px;
     object-fit: cover;
     border-radius: 50%;
-    margin-left: 8px;
+    margin-left: 20px;
 }
 
 .iconTag{
