@@ -1,5 +1,101 @@
 .leftPaneBox{
-    background-color: aqua;
+    background-color: #F5F5F5;
     flex: 4;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(221, 225, 224);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(187, 185, 185);
+}
 
+.profilePic{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.leftpaneContainer{
+    padding: 20px;
+}
+
+.leftPaneMenu{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.leftpanemenuitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leftPaneMenuText{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.leftpanemenuicon1{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: rgb(28, 83, 234);
+}
+.leftpanemenuicon2{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: rgb(9, 113, 203);
+}
+.leftpanemenuicon3{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: rgb(208, 68, 180);
+}
+.leftpanemenuicon4{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: blue;
+}
+.leftpanemenuicon5{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: rgb(20, 25, 187);
+}
+.leftpanemenuicon6{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: rgb(210, 209, 209);
+}
+.pagePics{
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-left: 5px;
+}
+.pageNamesText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+.shortcuts{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.shortcutText{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #737579;
+}
+.shortcutpages{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.pageListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
